@@ -123,9 +123,14 @@ body {
     transform: translateX(60px) rotate(180deg);
 }
 
+.vest {
+    position: relative;
+    width: 200px;
+}
+
 .body {
     position: absolute;
-    top: 250px;
+    top: -220px;
     width: 200px;
     height: 400px;
     background-color: var(--dark-color);
@@ -135,7 +140,7 @@ body {
 
 .cloak {
     position: absolute;
-    top: 250px;
+    top: -250px;
     margin-left: -15px;
     width: 230px;
     height: 380px;
@@ -146,7 +151,7 @@ body {
 
 .neck {
     position: absolute;
-    top: 200px;
+    top: -350px;
     margin-left: -15px;
     width: 230px;
     height: 200px;
